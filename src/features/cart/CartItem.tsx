@@ -6,7 +6,7 @@ import UpdateItemQuantity from './UpdateItemQuantity';
 import { getCurrentQuantity } from './cartSlice';
 
 export function CartItem({ item }: { item: orderItem }) {
-  const { pizzaId, name, quantity, totalPrice } = item;
+  const { pizzaId, name, totalPrice } = item;
 
   const currentQuantity = useSelector(getCurrentQuantity(pizzaId));
 

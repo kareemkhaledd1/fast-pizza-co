@@ -1,4 +1,4 @@
-import { useNavigate, useRouteError } from 'react-router-dom';
+import { useRouteError } from 'react-router-dom';
 import { RouteError } from '../utils/types';
 import LinkButton from './LinkButton';
 
